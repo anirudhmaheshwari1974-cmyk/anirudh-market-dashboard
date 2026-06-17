@@ -85,7 +85,7 @@ export default function Home() {
 
     const interval = setInterval(() => {
       fetchPrices();
-    }, 30000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [autoRefresh]);
